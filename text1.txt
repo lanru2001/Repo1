@@ -1,0 +1,11 @@
+#Method overriding the concept of changing the functionality of a python method in the super class by redefining
+
+class desktop:
+    def monitor(self):
+        print("It is for visual display")
+class notebook(desktop):
+    def monitor(self):
+               print( "It has a beautiful display")
+               
+conn=notebook()
+conn.monitor()
